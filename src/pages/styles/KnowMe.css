@@ -1,0 +1,67 @@
+html{
+    background-color:#1C3643;
+}
+
+.MainPage{
+    max-width:70%;
+    margin-right:15%;
+    margin-left:15%;
+
+    background-color:rgb(56, 105, 129);
+    border-radius:5px;
+    display:flex;
+
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+    padding:5px;
+}
+
+.MainPage-title{
+    text-align: center;
+    color:white;
+}
+
+.MainPage-content{
+    max-width: 80%;
+
+    background-color:rgb(76, 143, 177);
+    border-radius:5px;
+
+    margin:5%;
+
+    padding:2.5%;
+    display:flex;
+    align-self:center;
+    justify-content: center;
+    color:white;
+}
+
+.MainPage-image{
+    max-width: 30%;
+    max-height: 30%;
+
+    width: 30%;
+    height: 30%;
+
+    border-radius:50%;
+    margin:10px;
+    padding:10px;
+    align-self: center;
+}
+
+.Portfolio{
+    max-width:70%;
+    margin-right:15%;
+    margin-left:15%;
+
+    background-color:rgb(56, 105, 129);
+    border-radius:5px;
+}
+
+.Portfolio-List{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

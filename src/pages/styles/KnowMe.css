@@ -18,11 +18,13 @@ html{
     padding:5px;
 
     font-family: 'Cabin',sans-serif;
+    font-size: 20px;
 }
 
 .MainPage-title{
     text-align: center;
     color:white;
+    padding:25px;
 }
 
 .MainPage-content{
@@ -58,12 +60,21 @@ html{
 }
 
 .Portfolio{
-    max-width:70%;
+    max-width: 70%;
     margin-right:15%;
     margin-left:15%;
 
+    margin-top:5%;
+    margin-bottom:5%;
+
+    padding:2.5%;
+
     background-color:rgb(56, 105, 129);
     border-radius:5px;
+    font-size: 20px;
+
+    display:flex;
+    flex-direction: column;
 }
 
 .Portfolio-List{

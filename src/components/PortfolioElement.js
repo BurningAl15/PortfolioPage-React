@@ -1,6 +1,6 @@
 import React from "react";
 import meImage from "../images/Aldhair Vera.jpg";
-import "./styles/Portfolio.css";
+import "./styles/PortfolioElement.css";
 
 class PortfolioElement extends React.Component{
 

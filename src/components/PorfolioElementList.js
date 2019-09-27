@@ -7,11 +7,11 @@ import "./styles/PortfolioElementList.css";
 class PortfolioElementList extends React.Component {
     render() {
         return (
-        <ul className="PortfolioElementList">
-            {this.props.elements.map(element => {
+        <div className="PortfolioElementList">
+            {this.props.portfolioElements.map(element => {
                 return (
-                <li key={element.id} className="Portfolio_Element">
                     <Element
+                    key={element.id}
                     title={element.title}
                     tech={element.tech}
                     date={element.date}
@@ -19,10 +19,9 @@ class PortfolioElementList extends React.Component {
                     list_element2={element.list_element2}
                     list_element3={element.list_element3}
                     />
-                </li>
                 );
             })}
-        </ul>
+        </div>
         );
     }
 }

@@ -1,13 +1,18 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import PortfolioElement from "../components/PortfolioElement";
 
 import meImage from "../images/Aldhair Vera.jpg";
 import PortfolioElementList from "../components/PorfolioElementList";
+
+import ExperienceElement from "../components/ExperienceElement";
+import ExperienceElementList from "../components/ExperienceElementList";
+
+import boomware from "../images/BoomwareLogo.png";
 import "./styles/KnowMe.css";
+import { throwStatement } from "@babel/types";
 
 class KnowMe extends React.Component{
-    state={
+    portfolioData={
         data:[
             {
                 id:1,
@@ -20,7 +25,7 @@ class KnowMe extends React.Component{
             },
             {
                 id:2,
-                title:'Lazy Love',
+                title:'Lazy __ Love',
                 tech:'Tecnología: Unity3D',
                 date:'Fecha: 14/02/2019',
                 list_element1:'- Este videojuego tuvo 21 días de desarrollo y salió para el 14 de febredo del 2019.',
@@ -29,12 +34,57 @@ class KnowMe extends React.Component{
             },
             {
                 id:3,
-                title:'Lazy Love',
+                title:'Lazy __ Love __',
                 tech:'Tecnología: Unity3D',
                 date:'Fecha: 14/02/2019',
                 list_element1:'- Este videojuego tuvo 21 días de desarrollo y salió para el 14 de febredo del 2019.',
                 list_element2:'- La finalidad de este juego era crear un videojuego hipercasual con mecánicas divertidas que simulara un juego que me gustaba mucho cuando era pequeño.',
                 list_element3:'- Actualmente clasificó para la sección de estudiantes del Lima Game Fest.',
+            },
+        ]
+    }
+
+    experienceData={
+        data:[
+            {
+                id:1,
+                iconDirection:'BoomwareLogo.png',
+                name:'Boomware Technologies S.A.C.',
+                position:'Jr. Game Programmer',
+                info1:'Programación de simulador de billar.',
+                info2:'Programación del sistema de shopping del juego Cinema Panic 2'
+            },
+            {
+                id:2,
+                iconDirection:'BLUEBAYMOBLogo.png',
+                name:'Boomware Technologies S.A.C.',
+                position:'Jr. Game Programmer',
+                info1:'Programación de simulador de billar.',
+                info2:'Programación del sistema de shopping del juego Cinema Panic 2'
+            },
+            {
+                id:3,
+                iconDirection:'AmazingGamesLogo.png',
+                name:'Boomware Technologies S.A.C.',
+                position:'Jr. Game Programmer',
+                info1:'Programación de simulador de billar.',
+                info2:'Programación del sistema de shopping del juego Cinema Panic 2'
+            },
+            {
+                id:4,
+                iconDirection:'DroptekLogo.svg',
+                name:'Boomware Technologies S.A.C.',
+                position:'Jr. Game Programmer',
+                info1:'Programación de simulador de billar.',
+                info2:'Programación del sistema de shopping del juego Cinema Panic 2'
+            },
+            {
+                id:5,
+                iconDirection:'InartLogo.png',
+                name:'Boomware Technologies S.A.C.',
+                position:'Jr. Game Programmer',
+                info1:'Programación de simulador de billar.',
+                info2:'Programación del sistema de shopping del juego Cinema Panic 2'
             },
         ]
     }
@@ -80,9 +130,14 @@ class KnowMe extends React.Component{
                     <h1 className="MainPage-title">
                         Portfolio
                     </h1>
-                    {/* <div className="Portfolio-List"> */}
-                        <PortfolioElementList elements={this.state.data}/>
-                    {/* </div> */}
+                    <PortfolioElementList portfolioElements={this.portfolioData.data}/>
+                </div>
+
+                <div className="Experience">
+                    <h1 className="MainPage-title">
+                        Experience
+                    </h1>
+                    <ExperienceElementList experienceElements={this.experienceData.data}/>
                 </div>
             </div>
         );

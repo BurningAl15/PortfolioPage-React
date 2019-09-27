@@ -16,6 +16,8 @@ html{
     justify-content: center;
 
     padding:5px;
+
+    font-family: 'Cabin',sans-serif;
 }
 
 .MainPage-title{
@@ -36,6 +38,10 @@ html{
     align-self:center;
     justify-content: center;
     color:white;
+}
+
+.MainPage-description{
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .MainPage-image{

@@ -1,0 +1,20 @@
+.PortfolioElementList{
+    display:flex;
+    /* flex-direction: column; */
+    align-items: center;
+    color:white;
+    flex-shrink:0;
+
+    align-self: center;
+
+    margin:0;
+    padding:0;
+    list-style: none;
+    flex-wrap: wrap;
+
+}
+
+.Portfolio_Element{
+    display:flex;
+    justify-content: center;
+}

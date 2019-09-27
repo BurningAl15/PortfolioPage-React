@@ -3,6 +3,7 @@ import meImage from "../images/Aldhair Vera.jpg";
 import "./styles/Portfolio.css";
 
 class PortfolioElement extends React.Component{
+
     render(){
         return(
             <div className="PortfolioElement">
@@ -29,7 +30,7 @@ class PortfolioElement extends React.Component{
                 <img
                     className="PortfolioElement-image"
                     src={meImage}
-                    width="100"
+                    width="300"
                     alt="Element image">
                 </img>
             </div>

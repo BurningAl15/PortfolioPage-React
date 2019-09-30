@@ -68,7 +68,7 @@ class KnowMe extends React.Component{
                 name:'Amazing Games Studio',
                 position:'Game Programmer',
                 info1:'Programación de un videojuego educativo para la plataforma Legends of Learning.',
-                // info2:'Programación del sistema de shopping del juego Cinema Panic 2'
+                info2:' '
             },
             {
                 id:4,

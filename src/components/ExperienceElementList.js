@@ -1,7 +1,7 @@
 import React from "react";
 
 import Element from "../components/ExperienceElement";
-
+import "./styles/ExperienceElementList.css";
 
 class PortfolioElementList extends React.Component {
     render() {

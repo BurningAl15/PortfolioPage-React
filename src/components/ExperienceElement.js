@@ -1,5 +1,8 @@
 import React from "react";
 
+import "./styles/ExperienceElement.css";
+
+const sign=[' ','-'];
 class ExperienceElement extends React.Component{
 
     render(){
@@ -26,11 +29,11 @@ class ExperienceElement extends React.Component{
                 <ol className="ExperienceElement-set">
 
                     <li>
-                        {this.props.info1}
+                        {sign[1]}{this.props.info1}
                     </li>
 
                     <li>
-                        {this.props.info2}
+                        {this.props.info2===' '?sign[0]:sign[1]}{this.props.info2}
                     </li>
 
                 </ol>

@@ -82,3 +82,21 @@ html{
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.Experience{
+    max-width: 70%;
+    margin-right:15%;
+    margin-left:15%;
+
+    margin-top:5%;
+    margin-bottom:5%;
+
+    padding:2.5%;
+
+    background-color:rgb(56, 105, 129);
+    border-radius:5px;
+    font-size: 20px;
+
+    display:flex;
+    flex-direction: column;
+}

@@ -3,6 +3,8 @@ import React from "react";
 import "./styles/ExperienceElement.css";
 
 const sign=[' ','-'];
+
+const icon_experience=['ExperienceElement-icon','ExperienceElement-icon-INART']
 class ExperienceElement extends React.Component{
 
     render(){
@@ -10,7 +12,7 @@ class ExperienceElement extends React.Component{
             <div className="ExperienceElement">
                 <article className="ExperienceElement-icon-container">
                     <img
-                        className="ExperienceElement-icon"
+                        className={this.props.iconDirection==='InartLogo.png'?icon_experience[1]:icon_experience[0]}
                         src={require ('../images/'+this.props.iconDirection)}
                         width="300"
                         alt="Icon image"

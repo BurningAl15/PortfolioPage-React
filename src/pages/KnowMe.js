@@ -57,34 +57,34 @@ class KnowMe extends React.Component{
             {
                 id:2,
                 iconDirection:'BLUEBAYMOBLogo.png',
-                name:'Boomware Technologies S.A.C.',
-                position:'Jr. Game Programmer',
-                info1:'Programación de simulador de billar.',
-                info2:'Programación del sistema de shopping del juego Cinema Panic 2'
+                name:'BLUEBAYMOB LLC.',
+                position:'Gameplay Programmer',
+                info1:'Programación del videojuego móvil Rush Cube.',
+                info2:'Programación del videojuego móvil Dash Ball.'
             },
             {
                 id:3,
                 iconDirection:'AmazingGamesLogo.png',
-                name:'Boomware Technologies S.A.C.',
-                position:'Jr. Game Programmer',
-                info1:'Programación de simulador de billar.',
-                info2:'Programación del sistema de shopping del juego Cinema Panic 2'
+                name:'Amazing Games Studio',
+                position:'Game Programmer',
+                info1:'Programación de un videojuego educativo para la plataforma Legends of Learning.',
+                // info2:'Programación del sistema de shopping del juego Cinema Panic 2'
             },
             {
                 id:4,
                 iconDirection:'DroptekLogo.svg',
-                name:'Boomware Technologies S.A.C.',
-                position:'Jr. Game Programmer',
+                name:'Droptek S.A.C.',
+                position:'Game Developer',
                 info1:'Programación de simulador de billar.',
                 info2:'Programación del sistema de shopping del juego Cinema Panic 2'
             },
             {
                 id:5,
                 iconDirection:'InartLogo.png',
-                name:'Boomware Technologies S.A.C.',
-                position:'Jr. Game Programmer',
-                info1:'Programación de simulador de billar.',
-                info2:'Programación del sistema de shopping del juego Cinema Panic 2'
+                name:'Insomnia Art Studio S.A.C.',
+                position:'Gameplay Programmer / Game Designer',
+                info1:'Diseño y Programación del videojuego móvil Pig Year Food Fight.',
+                info2:'Diseño y Programación del videojuego móvil Lazy Love.'
             },
         ]
     }

@@ -1,0 +1,17 @@
+.Footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #252525;
+    
+    color: white;
+    font-size: 25px;
+    max-width: 99.65%;
+    max-height: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    /* border-color: #000000;
+    border-style: solid; */
+}

@@ -33,6 +33,7 @@ html{
     flex-wrap: wrap;
     flex-shrink: 0;
     text-decoration: none;
+    margin-left: 1%;
 }
 
 .Navbar-link-set{
@@ -51,6 +52,7 @@ html{
     align-items: center;
     flex-shrink: 0;
     max-width:60%;
+    margin-right: 1%;
 }
 
 .Navbar-title{
@@ -70,6 +72,8 @@ html{
     align-items: center;
     margin:5px;
     padding:10px;
+    text-decoration: none;
+
 }
 
 .Navbar-logo{

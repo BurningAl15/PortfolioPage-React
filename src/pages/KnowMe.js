@@ -6,7 +6,7 @@ import PortfolioElementList from "../components/PorfolioElementList";
 
 import ExperienceElementList from "../components/ExperienceElementList";
 
-import boomware from "../images/BoomwareLogo.png";
+// import boomware from "../images/BoomwareLogo.png";
 import "./styles/KnowMe.css";
 
 import Footer from "../components/Footer";
@@ -92,7 +92,7 @@ class KnowMe extends React.Component{
     render(){
         return(
             <div>
-                <Navbar />
+                <Navbar/>
 
                 <div className="MainPage">
                     <h1 className="MainPage-title">

@@ -72,13 +72,14 @@ h2{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-
+    /* padding:5%; */
     background-color:rgb(92, 175, 216);
     border-radius:5px;
 }
 
 .social-element{
     margin:5%;
+    width:15%;
     flex-wrap: wrap;
     flex-shrink: 0;
 }

@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {BrowserRouter,Switch,Route} from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Layout from "./components/Layout";
+
+import KnowMe from "./pages/KnowMe";
+import ContactMe from "./pages/ContactMe";
+import Gamejams from "./pages/Gamejams";
+import OwnProjects from "./pages/OwnProjects";
+import PublishedProjects from "./pages/PublishedProjects";
+
+function App(){
+    return(
+        <BrowserRouter>
+            <Layout>
+                <Switch>
+                    <Route exact path="/" component={KnowMe}/>
+                    <Route exact path="/Gamejams" component={Gamejams}/>
+                    <Route exact path="/OwnProjects" component={OwnProjects}/>
+                    <Route exact path="/PublishedProjects" component={PublishedProjects}/>
+                    <Route exact path="/ContactMe" component={ContactMe}/>
+                </Switch>
+            </Layout>
+        </BrowserRouter>
+    )
 }
-
 export default App;

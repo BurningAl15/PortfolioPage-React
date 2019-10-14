@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 import twitterIcon from "../images/twitter.svg";
@@ -26,7 +26,7 @@ class ContactMe extends React.Component{
     render(){
         return(
             <div>
-                <Navbar/>
+                {/* <Navbar/> */}
                 <div className="ContactMe-Container">
                     <div className="ContactMe-Container-grouper">
 
@@ -42,7 +42,7 @@ class ContactMe extends React.Component{
                                 href={twitter}>
                                     <img
                                     src={twitterIcon}
-                                    width="60"
+                                    // width="60"
                                     alt="Twitter Icon"
                                     />
                                 </a>
@@ -51,7 +51,7 @@ class ContactMe extends React.Component{
                                 href={facebook}>
                                     <img
                                     src={facebookIcon}
-                                    width="60"
+                                    // width="60"
                                     alt="Facebook Icon"
                                     />
                                 </a>
@@ -60,7 +60,7 @@ class ContactMe extends React.Component{
                                 href={instagram}>
                                     <img
                                     src={instagramIcon}
-                                    width="60"
+                                    // width="60"
                                     alt="Instagram Icon"
                                     />
                                 </a>
@@ -69,7 +69,7 @@ class ContactMe extends React.Component{
                                 href={linkedin}>
                                     <img
                                     src={linkedinIcon}
-                                    width="60"
+                                    // width="60"
                                     alt="Linkedin Icon"
                                     />
                                 </a>
@@ -78,7 +78,7 @@ class ContactMe extends React.Component{
                                 href={github}>
                                     <img
                                     src={githubIcon}
-                                    width="60"
+                                    // width="60"
                                     alt="Github Icon"
                                     />
                                 </a>
@@ -87,7 +87,7 @@ class ContactMe extends React.Component{
                                 href={whatsapp}>
                                     <img
                                     src={whatsappIcon}
-                                    width="60"
+                                    // width="60"
                                     alt="Whatsapp Icon"
                                     />
                                 </a>
@@ -98,7 +98,7 @@ class ContactMe extends React.Component{
                     </div>
                 </div>
 
-                <Footer/>
+                {/* <Footer/> */}
             </div>
         )
     }

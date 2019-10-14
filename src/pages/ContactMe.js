@@ -1,6 +1,4 @@
 import React from "react";
-// import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 
 import twitterIcon from "../images/twitter.svg";
 import facebookIcon from "../images/facebook.svg";

@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 
 import meImage from "../images/Aldhair Vera.jpg";
 import PortfolioElementList from "../components/PorfolioElementList";
@@ -8,8 +7,6 @@ import ExperienceElementList from "../components/ExperienceElementList";
 
 // import boomware from "../images/BoomwareLogo.png";
 import "./styles/KnowMe.css";
-
-import Footer from "../components/Footer";
 
 class KnowMe extends React.Component{
     portfolioData={

@@ -3,9 +3,9 @@ import React from "react";
 class Gamejams extends React.Component{
     render(){
         return(
-            <div>
+            <React.Fragment>
                 Gamejams
-            </div>
+            </React.Fragment>
         )
     }
 }

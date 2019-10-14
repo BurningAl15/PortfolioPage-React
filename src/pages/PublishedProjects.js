@@ -3,9 +3,9 @@ import React from "react";
 class PublishedProjects extends React.Component{
     render(){
         return(
-            <div>
+            <React.Fragment>
                 PublishedProjects
-            </div>
+            </React.Fragment>
         )
     }
 }

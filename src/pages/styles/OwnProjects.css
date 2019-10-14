@@ -1,0 +1,45 @@
+html{
+    background-color:#1C3643;
+}
+
+.OwnProject{
+    max-width:80%;
+    margin-right:10%;
+    margin-left:10%;
+
+    background-color:rgb(56, 105, 129);
+    border-radius:5px;
+    display:flex;
+
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+    padding:5px;
+
+    font-family: 'Cabin',sans-serif;
+    font-size: 20px;
+}
+
+.OwnProject-title{
+    text-align: center;
+    color:white;
+    padding:25px;
+}
+
+.OwnProject-content{
+    max-width: 90%;
+
+    background-color:rgb(76, 143, 177);
+    border-radius:5px;
+
+    margin:2.5%;
+
+    padding:1%;
+    padding-top:2%;
+    padding-bottom:2%;
+
+    align-self:center;
+    justify-content: center;
+    color:white;
+}

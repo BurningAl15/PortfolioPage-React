@@ -92,8 +92,6 @@ class KnowMe extends React.Component{
     render(){
         return(
             <div>
-                {/* <Navbar/> */}
-
                 <div className="MainPage">
                     <h1 className="MainPage-title">
                         Know Me
@@ -139,8 +137,6 @@ class KnowMe extends React.Component{
                     </h1>
                     <ExperienceElementList experienceElements={this.experienceData.data}/>
                 </div>
-
-                {/* <Footer /> */}
             </div>
         );
     }

@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./styles/OwnProjects.css";
+import "./styles/Projects.css";
 import GameCard from "../components/GameCard";
 
 class OwnProjects extends React.Component {

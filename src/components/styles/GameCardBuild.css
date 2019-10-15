@@ -2,6 +2,19 @@
     display: flex;
     align-content: center;
     justify-content: space-around;
+    max-width: 85%;
+    justify-self: center;
+    margin-top: 4%;
+    margin-left:5%;
+    margin-right:5%;
+    border-radius:5px;
+}
+
+.socialNetwork{
+    width:40px;
+    height:40px;
+    /* background-color:rgb(255, 255, 255); */
+    /* color:black; */
 }
 
 /* .GameCardBuild-Element{

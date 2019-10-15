@@ -9,6 +9,8 @@ import githubIcon from "../images/github.svg";
 
 import "../pages/styles/ContactMe.css";
 
+import { SocialIcon } from "react-social-icons";
+
 const twitter = "https://twitter.com/AldhairVera";
 const facebook = "https://www.facebook.com/aldhair.Vera";
 const whatsapp =
@@ -20,14 +22,14 @@ const github = "https://github.com/BurningAl15";
 class ContactMe extends React.Component {
   render() {
     return (
-        <React.Fragment>
+      <React.Fragment>
         <div className="ContactMe-Container">
           <div className="ContactMe-Container-grouper">
             <h1 className="ContactMe-title">Contact Me</h1>
             <div className="ContactMe-Social-Set">
               <h2 className="ContactMe-subtitle">Want to work with me?</h2>
               <div className="social-element-container">
-                <a className="social-element" href={twitter}>
+                {/* <a className="social-element" href={twitter}>
                   <img src={twitterIcon} alt="Twitter Icon" />
                 </a>
 
@@ -49,7 +51,19 @@ class ContactMe extends React.Component {
 
                 <a className="social-element" href={whatsapp}>
                   <img src={whatsappIcon} alt="Whatsapp Icon" />
-                </a>
+                </a> */}
+
+                <SocialIcon className="social-element" url={twitter} />
+
+                <SocialIcon className="social-element" url={facebook} />
+
+                <SocialIcon className="social-element" url={instagram} />
+
+                <SocialIcon className="social-element" url={linkedin} />
+
+                <SocialIcon className="social-element" url={github} />
+
+                <SocialIcon className="social-element" url={whatsapp} />
               </div>
             </div>
           </div>

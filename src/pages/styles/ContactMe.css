@@ -26,6 +26,8 @@ h2{
     align-items: center;
 
     font-size: 25px;
+    margin-bottom:8%;
+
 }
 
 .ContactMe-Container-grouper
@@ -56,7 +58,7 @@ h2{
 
 .ContactMe-Social-Set{
     align-self: center;
-    background:rgb(76, 143, 177);
+    background:rgb(76, 143, 177) ;
     border-radius:5px;
 
     width: 50%;
@@ -72,14 +74,19 @@ h2{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* padding:5%; */
     background-color:rgb(92, 175, 216);
     border-radius:5px;
 }
 
 .social-element{
-    margin:5%;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:7.5%;
+    margin-bottom:7.5%;
+
     width:15%;
     flex-wrap: wrap;
     flex-shrink: 0;
+    background:rgb(25, 59, 77);
+    border-radius: 50%;
 }

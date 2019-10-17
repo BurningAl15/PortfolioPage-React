@@ -9,6 +9,8 @@ import Gamejams from "./pages/Gamejams";
 import OwnProjects from "./pages/OwnProjects";
 import PublishedProjects from "./pages/PublishedProjects";
 
+import WebGame from "./pages/WebGame";
+
 function App(){
     return(
         <BrowserRouter>
@@ -19,6 +21,7 @@ function App(){
                     <Route exact path="/OwnProjects" component={OwnProjects}/>
                     <Route exact path="/PublishedProjects" component={PublishedProjects}/>
                     <Route exact path="/ContactMe" component={ContactMe}/>
+                    <Route exact path="/WebGame" component={WebGame}/>
                 </Switch>
             </Layout>
         </BrowserRouter>

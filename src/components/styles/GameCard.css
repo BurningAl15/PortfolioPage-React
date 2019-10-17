@@ -1,12 +1,14 @@
 .GameCard{
     max-width: 85%;
-
+    /* width:1141.45px; */
     background-color:rgb(62, 106, 128);
     border-radius:5px;
 
-    margin-left:5%;
-    margin-right:5%;
+    margin-left:7.5%;
+    margin-right:7.5%;
     margin-top:5%;
+
+    flex-shrink: 0;
 
     padding:2.5%;
     display:flex;
@@ -23,9 +25,9 @@
     color:white;
 }
 
-.GameCard-Part-Bottom{
+/* .GameCard-Part-Bottom{
 
-}
+} */
 
 .GameCard-Title{
     text-align: center;

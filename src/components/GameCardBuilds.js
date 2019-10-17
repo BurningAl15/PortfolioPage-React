@@ -1,10 +1,7 @@
 import React from "react";
 
-import { SocialIcon } from 'react-social-icons';
-
 import "./styles/GameCardBuild.css";
 import { Link } from "react-router-dom";
-import socialIcon from "react-social-icons/dist/social-icon";
 
 // const web = "./";
 // const android = "./";

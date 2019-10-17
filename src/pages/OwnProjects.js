@@ -27,6 +27,43 @@ class OwnProjects extends React.Component {
               gameDescription="Live adventures as Ragnar, a viking that just arrived an island with a misterious effect that get's you old. Recover your youth by taking clocks, but take care because the island is very dangerous."
             />
           </div>
+
+          <div className="OwnProject-content">
+            <GameCard
+              gameName="Hamster Attack"
+              videoLink="https://www.youtube.com/embed/faouIeoJbXs"
+              gameGenre="2d Topdown Shooter"
+              gameDescription="Destroy the evil cat empire while you shoot and avoid enemies, living a cool adventure in the skin of Kion the hamster, but take care, not all is what you see."
+            />
+          </div>
+
+          {/* <div className="OwnProject-content">
+            <GameCard
+              gameName="Minimal Dodgers"
+              videoLink="https://www.youtube.com/embed/qAJUQLE2ulQ"
+              gameGenre="2d runnerlike"
+              gameDescription="Minimal Dodgers is my first gamejam game, I worked as programmer and game designer very hard with some more people and make this little cool game in 48 hours."
+            />
+          </div> */}
+
+          <div className="OwnProject-content">
+            <GameCard
+              gameName="Heart Wars"
+              videoLink="https://www.youtube.com/embed/PYBRjbTWOdM"
+              gameGenre="Topdown 3d party game"
+              gameDescription="Select a heart and beat the other one until only one is left standing."
+            />
+          </div>
+
+          <div className="OwnProject-content">
+            <GameCard
+              gameName="Seeds, PickUp, Fight!"
+              videoLink="https://www.youtube.com/embed/-MdPKss8vjs"
+              gameGenre="2d Brawler"
+              gameDescription="Select one seed, destroy the balance in the woods by trying to pick up orbs."
+            />
+          </div>
+
         </div>
       </React.Fragment>
     );

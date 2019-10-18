@@ -11,6 +11,8 @@ import PublishedProjects from "./pages/PublishedProjects";
 
 import WebGame from "./pages/WebGame";
 
+import ComingSoon from "./pages/ComingSoon";
+
 function App(){
     return(
         <BrowserRouter>
@@ -22,6 +24,7 @@ function App(){
                     <Route exact path="/PublishedProjects" component={PublishedProjects}/>
                     <Route exact path="/ContactMe" component={ContactMe}/>
                     <Route exact path="/WebGame" component={WebGame}/>
+                    <Route exact path="/ComingSoon" component={ComingSoon}/>
                 </Switch>
             </Layout>
         </BrowserRouter>

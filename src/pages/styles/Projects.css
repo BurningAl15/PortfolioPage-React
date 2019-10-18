@@ -2,7 +2,7 @@ html{
     background-color:#1C3643;
 }
 
-.OwnProject{
+.Project{
     max-width:80%;
     margin-right:10%;
     margin-left:10%;
@@ -21,13 +21,13 @@ html{
     font-size: 20px;
 }
 
-.OwnProject-title{
+.Project-title{
     text-align: center;
     color:white;
     padding:25px;
 }
 
-.OwnProject-content{
+.Project-content{
     max-width: 90%;
 
     background-color:rgb(76, 143, 177);

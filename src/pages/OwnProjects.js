@@ -7,60 +7,105 @@ class OwnProjects extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="OwnProject">
-          <h1 className="OwnProject-title">Own Projects</h1>
+        <div className="Project">
+          <h1 className="Project-title">Own Projects</h1>
 
-          <div className="OwnProject-content">
+          <div className="Project-content">
             <GameCard
-              gameName="Land of a Free"
-              videoLink="https://www.youtube.com/embed/6-mc5128xDw"
-              gameGenre="Survival/2d simulator"
-              gameDescription='Land of the free is a 2d wolf pack simulator game my team and i did in the Lima Game Jam (Global gamejam 2019) The theme of the gamejam was "What is home for you?" so we thought a lot and saw that we all feel that wolves have a home wherever they go, so we used them to make this game. In the game you control a pack of wolves that must hunt, rest, hug and hunt one more time to mantain their family alive.'
+              gameName="Billiards Simulator"
+              videoLink="https://www.youtube.com/embed/HVlr5NpkPJk"
+              gameGenre="Simulation video game, Sports game, Billiards"
+              gameDescription="Billiards game that tries to make you feel really passionate about this sport giving you two kinds of view of the game for more detail, and some little tricks."
             />
           </div>
 
-          <div className="OwnProject-content">
+          <div className="Project-content">
             <GameCard
-              gameName="Ragnar and the sands of time"
-              videoLink="https://www.youtube.com/embed/qAJUQLE2ulQ"
-              gameGenre="2d Platformer"
-              gameDescription="Live adventures as Ragnar, a viking that just arrived an island with a misterious effect that get's you old. Recover your youth by taking clocks, but take care because the island is very dangerous."
+              gameName="Box Smasher"
+              videoLink="https://www.youtube.com/embed/inBmYbhS4Ak"
+              gameGenre="3D Shooter/Survival"
+              gameDescription='Destroy all boxes you can, but take care of what box you aim to.'
             />
           </div>
 
-          <div className="OwnProject-content">
+          <div className="Project-content">
             <GameCard
-              gameName="Hamster Attack"
-              videoLink="https://www.youtube.com/embed/faouIeoJbXs"
-              gameGenre="2d Topdown Shooter"
-              gameDescription="Destroy the evil cat empire while you shoot and avoid enemies, living a cool adventure in the skin of Kion the hamster, but take care, not all is what you see."
-            />
-          </div>
-
-          {/* <div className="OwnProject-content">
-            <GameCard
-              gameName="Minimal Dodgers"
-              videoLink="https://www.youtube.com/embed/qAJUQLE2ulQ"
-              gameGenre="2d runnerlike"
-              gameDescription="Minimal Dodgers is my first gamejam game, I worked as programmer and game designer very hard with some more people and make this little cool game in 48 hours."
-            />
-          </div> */}
-
-          <div className="OwnProject-content">
-            <GameCard
-              gameName="Heart Wars"
-              videoLink="https://www.youtube.com/embed/PYBRjbTWOdM"
-              gameGenre="Topdown 3d party game"
-              gameDescription="Select a heart and beat the other one until only one is left standing."
-            />
-          </div>
-
-          <div className="OwnProject-content">
-            <GameCard
-              gameName="Seeds, PickUp, Fight!"
-              videoLink="https://www.youtube.com/embed/-MdPKss8vjs"
-              gameGenre="2d Brawler"
+              gameName="Sound Visualizer"
+              videoLink="https://www.youtube.com/embed/XmtUJ3wQnsk"
+              gameGenre="Sound Visualizer"
               gameDescription="Select one seed, destroy the balance in the woods by trying to pick up orbs."
+            />
+          </div>
+
+          <div className="Project-content">
+            <GameCard
+              gameName="Colorful Frogger"
+              videoLink="https://www.youtube.com/embed/_M3M2UuhtB8"
+              gameGenre="2d Arcade"
+              gameDescription="Play the classic frogger, cross the street and take care of the cars in a colorful new world."
+            />
+          </div>
+
+          <div className="Project-content">
+            <GameCard
+              gameName="Break it out!"
+              videoLink="https://www.youtube.com/embed/oDFgTWrQD5s"
+              gameGenre="2d Arcade"
+              gameDescription="Play the classic brekout with a 3d art style and a new game feel."
+            />
+          </div>
+
+          <div className="Project-content">
+            <GameCard
+              gameName="Icy Fighters"
+              videoLink="https://www.youtube.com/embed/i3bi3goLU8U"
+              gameGenre="2d Brawler"
+              gameDescription="Select one of the curious icy fighters and fill your enemy with your snowballs until he falls."
+            />
+          </div>
+
+          <div className="Project-content">
+            <GameCard
+              gameName="Robot Attack"
+              videoLink="https://www.youtube.com/embed/xbUsZE2tFo4"
+              gameGenre="2d Survival"
+              gameDescription="Try to survive in an space lab where robot's went out of control."
+            />
+          </div>
+
+          <div className="Project-content">
+            <GameCard
+              gameName="Toothie Adventures"
+              videoLink="https://www.youtube.com/embed/CKXBjvgJkM8"
+              gameGenre="2d runnerlike"
+              gameDescription="In a sweet world, became toothie, a little teeth that don't want to get tooth decay."
+            />
+          </div>
+
+          <div className="Project-content">
+            <GameCard
+              gameName="The Walking Dead.io simulator"
+              videoLink="https://www.youtube.com/embed/zEBRTZhklco"
+              gameGenre="2d Survival"
+              gameDescription="Try to survive in a zombie world in a .io style game."
+            />
+          </div>
+
+          <div className="Project-content">
+            <GameCard
+              gameName="Inquisition"
+              videoLink="https://www.youtube.com/embed/dURlVDyh4Sg"
+              gameGenre="2d Platformer"
+              gameDescription="Get into the skin of a slave that want's to save her wife from the Holy Inquisition that take her from him because they accuse her of witchcraft."
+            />
+          </div>
+
+          <div className="Project-content">
+            <GameCard
+              gameName="Flying Kitten"
+              videoLink="https://www.youtube.com/embed/1KWDhGR77QA"
+              gameGenre="HyperCasual / Mobile"
+              gameDescription="Mantain on the air as much as you can avoiding cucumbers."
             />
           </div>
 

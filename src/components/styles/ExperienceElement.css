@@ -1,76 +1,294 @@
-.ExperienceElement{
-    width:40%;
-    background:rgb(76, 143, 177);
-    border-radius:5px;
+.ExperienceElement {
+  max-width: 40%;
+  width: 40%;
 
-    margin:2.5%;
-    padding:2.5%;
+  background: rgb(76, 143, 177);
+  border-radius: 5px;
 
-    align-self:center;
+  margin: auto;
+  margin-bottom: 5%;
+  padding: 2.5%;
 
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    color:white;
-    flex-shrink:0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  flex-shrink: 0;
 }
 
-.ExperienceElement-icon-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-shrink: 0;
-    /* background-image: radial-gradient(rgb(70, 70, 70), #363636); */
-    background-image: radial-gradient(#284b5c,#386981);
+.ExperienceElement-icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-shrink: 0;
+  /* background-image: radial-gradient(rgb(70, 70, 70), #363636); */
+  background-image: radial-gradient(#284b5c, #386981);
 
-    background-repeat: no-repeat;
-    width:90%;
-    margin: 2.5%;
-    padding: 3%;
-    border-radius: 10px;
+  background-repeat: no-repeat;
+  max-width: 90%;
+  margin: 2.5%;
+  padding: 3%;
+  border-radius: 10px;
 }
 
-.ExperienceElement-icon{
-    justify-self: center;
-    text-align: center;
-    flex-shrink:0;
+.ExperienceElement-icon {
+  justify-self: center;
+  text-align: center;
+  flex-shrink: 0;
 
-    width: 220px;
-    height: 220px;
+  max-width: 90%;
+  /* max-height: 90%; */
 
-    object-fit: fill;
+  object-fit: fill;
 
-    border-radius: 5%;
-    padding:2.5%;
-    margin:5%;
+  border-radius: 5%;
+  padding: 2.5%;
+  margin: 5%;
 }
 
-.ExperienceElement-icon-INART{
-    justify-self: center;
-    text-align: center;
-    flex-shrink:0;
+.ExperienceElement-icon-INART {
+  justify-self: center;
+  text-align: center;
+  flex-shrink: 0;
 
-    width: 120px;
-    height: 220px;
+  max-width: 70%;
 
-    object-fit: fill;
+  object-fit: fill;
 
-    border-radius: 5%;
-    padding:2.5%;
-    margin:5%;
+  border-radius: 5%;
+  padding: 2.5%;
+  margin: 5%;
 }
 
-.ExperienceElement-name{
-    align-self: flex-start;
+.ExperienceElement-name {
+  align-self: flex-start;
 }
 
-.ExperienceElement-position{
-    align-self: flex-start;
+.ExperienceElement-position {
+  align-self: flex-start;
 }
 
-.ExperienceElement-set{
-    margin:0;
-    padding:0;
-    list-style: none;
-    padding:2%;
+.ExperienceElement-set {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding: 2%;
+  margin:auto;
 }
+
+.ExperienceElement-setElement {
+  margin-bottom: 2.5%;
+}
+
+@media screen and (max-width: 425px) {
+  .ExperienceElement {
+    max-width: 90%;
+    width: 90%;
+  }
+
+  .ExperienceElement-icon-container {
+    height: 300px;
+  }
+
+  .ExperienceElement-name {
+    font-size: 1.25em;
+    color: #d7e894;
+    margin-bottom: 3%;
+  }
+
+  .ExperienceElement-position {
+    font-size: 1em;
+  }
+  .ExperienceElement-set {
+    font-size: 0.85em;
+  }
+}
+
+@media screen and (max-width: 599.9px) and (min-width: 425.1px) {
+  .ExperienceElement {
+    max-width: 90%;
+    width: 90%;
+  }
+
+  .ExperienceElement-icon-container {
+    height: 384px;
+  }
+
+  .ExperienceElement-name {
+    font-size: 1.25em;
+    color: #d7e894;
+    margin-bottom: 3%;
+  }
+
+  .ExperienceElement-position {
+    font-size: 1em;
+  }
+  .ExperienceElement-set {
+    font-size: 0.85em;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  .ExperienceElement {
+    max-width: 45%;
+    width: 45%;
+    height: 559px;
+  }
+
+  .ExperienceElement-icon-container {
+    height: 262px;
+  }
+
+  .ExperienceElement-name {
+    font-size: 1.25em;
+    color: #d7e894;
+    margin-bottom: 3%;
+  }
+
+  .ExperienceElement-position {
+    font-size: 1em;
+  }
+  .ExperienceElement-set {
+    font-size: 0.85em;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768.1px) {
+  .ExperienceElement {
+    max-width: 45%;
+    width: 45%;
+    height: 565px;
+  }
+
+  .ExperienceElement-icon-container {
+    height: 300px;
+  }
+
+  .ExperienceElement-name {
+    font-size: 1.25em;
+    color: #d7e894;
+    margin-bottom: 3%;
+  }
+
+  .ExperienceElement-icon {
+    max-height: 70%;
+    margin: auto;
+  }
+
+  .ExperienceElement-icon-INART {
+    max-width: 60%;
+    margin: auto;
+  }
+
+  .ExperienceElement-position {
+    font-size: 1em;
+  }
+  .ExperienceElement-set {
+    font-size: 0.85em;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1024.1px) {
+  .ExperienceElement {
+    max-width: 40%;
+    width: 40%;
+    height: 733px;
+  }
+
+  .ExperienceElement-icon-container {
+    height: 300px;
+  }
+
+  .ExperienceElement-name {
+    font-size: 1.75em;
+    color: #d7e894;
+    margin-bottom: 3%;
+  }
+
+  .ExperienceElement-icon {
+    max-height: 70%;
+    margin: auto;
+  }
+
+  .ExperienceElement-icon-INART {
+    max-width: 60%;
+    margin: auto;
+  }
+
+  .ExperienceElement-position {
+    font-size: 1.5em;
+  }
+  .ExperienceElement-set {
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (max-width: 1919.9px) and (min-width: 1440.1px) {
+    .ExperienceElement {
+      max-width: 30%;
+      width: 30%;
+      height:672px;
+    }
+  
+    .ExperienceElement-icon-container {
+      height:260px;
+    }
+  
+    .ExperienceElement-name {
+      font-size: 1.5em;
+      color: #d7e894;
+      margin-bottom: 3%;
+    }
+  
+    .ExperienceElement-icon {
+      max-height: 70%;
+      margin: auto;
+    }
+  
+    .ExperienceElement-icon-INART {
+      max-width: 60%;
+      margin: auto;
+    }
+  
+    .ExperienceElement-position {
+      font-size: 1.25em;
+    }
+    .ExperienceElement-set {
+      font-size: 1.1em;
+    }
+  }
+
+  @media screen and (max-width: 2560px) and (min-width: 1920px) {
+    .ExperienceElement {
+      max-width: 30%;
+      width: 30%;
+      height:999px;
+    }
+  
+    .ExperienceElement-icon-container {
+      height:305px;
+    }
+  
+    .ExperienceElement-name {
+      font-size: 1.75em;
+      color: #d7e894;
+      margin-bottom: 3%;
+    }
+  
+    .ExperienceElement-icon {
+      max-height: 70%;
+      margin: auto;
+    }
+  
+    .ExperienceElement-icon-INART {
+      max-width: 60%;
+      margin: auto;
+    }
+  
+    .ExperienceElement-position {
+      font-size: 1.2em;
+    }
+    .ExperienceElement-set {
+      font-size: 1.1em;
+    }
+  }

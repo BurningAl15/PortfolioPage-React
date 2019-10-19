@@ -30,11 +30,11 @@ class ExperienceElement extends React.Component{
 
                 <ol className="ExperienceElement-set">
 
-                    <li>
+                    <li className="ExperienceElement-setElement">
                         {sign[1]}{this.props.info1}
                     </li>
 
-                    <li>
+                    <li className="ExperienceElement-setElement">
                         {this.props.info2===' '?sign[0]:sign[1]}{this.props.info2}
                     </li>
 

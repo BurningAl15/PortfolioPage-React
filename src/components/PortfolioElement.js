@@ -7,23 +7,23 @@ class PortfolioElement extends React.Component{
     render(){
         return(
             <div className="PortfolioElement">
-                <h1 className="PortfolioElement-title">
+                <h2 className="PortfolioElement-title">
                     {this.props.title}
-                </h1>
-                <h2 className="PortfolioElement-tech">
+                </h2>
+                <h3 className="PortfolioElement-tech">
                     {this.props.tech}
-                </h2>
-                <h2 className="PortfolioElement-date">
+                </h3>
+                <h3 className="PortfolioElement-date">
                     {this.props.date}
-                </h2>
+                </h3>
                 <ol className="PortfolioElement-set">
-                    <li>
+                    <li className="PortfolioElement-setElement">
                         {this.props.list_element1}
                     </li>
-                    <li>
+                    <li className="PortfolioElement-setElement">
                         {this.props.list_element2}
                     </li>
-                    <li>
+                    <li className="PortfolioElement-setElement">
                         {this.props.list_element3}
                     </li>
                 </ol>

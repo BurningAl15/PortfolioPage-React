@@ -1,102 +1,271 @@
-body{
-    background-color:#1C3643;
+body {
+  background-color: #1c3643;
 }
 
-.MainPage{
-    max-width:70%;
-    margin-right:15%;
-    margin-left:15%;
+.MainPage {
+  max-width: 70%;
 
-    background-color:rgb(56, 105, 129);
-    border-radius:5px;
-    display:flex;
+  margin: auto;
 
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
+  background-color: rgb(56, 105, 129);
+  border-radius: 5px;
+  display: flex;
 
-    padding:5px;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 
-    font-family: 'Cabin',sans-serif;
-    font-size: 20px;
+  padding: 5px;
+
+  font-family: "Cabin", sans-serif;
+  font-size: 1.25em;
 }
 
-.MainPage-title{
-    text-align: center;
-    color:white;
-    padding:25px;
+.MainPage-title {
+  text-align: center;
+  color: white;
+  padding: 5%;
+  margin-bottom: 5%;
 }
 
-.MainPage-content{
-    max-width: 80%;
+.MainPage-content {
+  max-width: 80%;
 
-    background-color:rgb(76, 143, 177);
-    border-radius:5px;
+  background-color: rgb(76, 143, 177);
+  border-radius: 5px;
 
-    margin:5%;
+  margin-bottom: 5%;
 
-    padding:2.5%;
-    display:flex;
-    align-self:center;
-    justify-content: center;
-    color:white;
+  padding: 2.5%;
+  display: flex;
+
+  align-self: center;
+  justify-content: center;
+  color: white;
 }
 
-.MainPage-description{
-    font-family: 'Josefin Sans', sans-serif;
+.MainPage-AboutMe {
+  padding-bottom: 4%;
 }
 
-.MainPage-image{
-    max-width: 30%;
-    max-height: 30%;
-
-    width: 30%;
-    height: 30%;
-
-    border-radius:50%;
-    margin:10px;
-    padding:10px;
-    align-self: center;
+.MainPage-description {
+  font-family: "Josefin Sans", sans-serif;
 }
 
-.Portfolio{
-    max-width: 70%;
-    margin-right:15%;
-    margin-left:15%;
+.MainPage-image {
+  max-width: 30%;
+  max-height: 30%;
 
-    margin-top:5%;
-    margin-bottom:5%;
+  width: 30%;
+  height: 30%;
 
-    padding:2.5%;
-
-    background-color:rgb(56, 105, 129);
-    border-radius:5px;
-    font-size: 20px;
-
-    display:flex;
-    flex-direction: column;
+  border-radius: 50%;
+  margin: 10px;
+  padding: 10px;
+  align-self: center;
 }
 
-.Portfolio-List{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.Portfolio {
+  max-width: 70%;
+  margin: auto;
+
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+  padding: 2.5%;
+
+  background-color: rgb(56, 105, 129);
+  border-radius: 5px;
+  font-size: 1.25em;
+
+  display: flex;
+  flex-direction: column;
 }
 
-.Experience{
-    max-width: 70%;
-    margin-right:15%;
-    margin-left:15%;
+.Portfolio-List {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-    margin-top:5%;
-    margin-bottom:5%;
+.Experience {
+  max-width: 70%;
+  margin: auto;
 
-    padding:2.5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 
-    background-color:rgb(56, 105, 129);
-    border-radius:5px;
-    font-size: 20px;
+  padding: 2.5%;
 
-    display:flex;
-    flex-direction: column;
+  background-color: rgb(56, 105, 129);
+  border-radius: 5px;
+  font-size: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 2560px) and (min-width: 1920.1px) {
+    .MainPage {
+      max-width: 90%;
+      font-size: 2em;
+    }
+
+    .MainPage-title {
+        font-size: 2em;
+        margin-bottom: 2%;
+    }
+  
+    .MainPage-AboutMe {
+        font-size: 1.75em;
+    }
+  
+    .MainPage-image {
+      max-width: 35%;
+      width: 35%;
+      margin:5%;
+    }
+  
+    .Portfolio {
+      max-width: 90%;
+      font-size: 2em;
+    }
+    .Experience {
+      max-width: 90%;
+      font-size: 2em;
+    }
+  }
+
+
+@media screen and (max-width: 1920px) and (min-width: 1024.1px) {
+    .MainPage {
+      max-width: 90%;
+      font-size: 1.5em;
+    }
+  
+    .MainPage-title {
+        font-size: 2em;
+        margin-bottom: 2%;
+    }
+
+
+    .MainPage-image {
+      max-width: 40%;
+      width: 40%;
+    }
+  
+    .Portfolio {
+      max-width: 90%;
+    }
+    .Experience {
+      max-width: 90%;
+    }
+  }
+  
+
+@media screen and (max-width: 1024px) and (min-width: 768.1px) {
+  .MainPage {
+    max-width: 90%;
+    font-size: 1.25em;
+  }
+
+  .MainPage-image {
+    max-width: 40%;
+    width: 40%;
+  }
+
+  .Portfolio {
+    max-width: 90%;
+  }
+  .Experience {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 425.1px) {
+  .MainPage {
+    max-width: 90%;
+    font-size: 1.25em;
+  }
+
+  .MainPage-content {
+    max-width: 90%;
+    flex-direction: column-reverse;
+  }
+
+  .MainPage-image {
+    max-width: 50%;
+    width: 50%;
+  }
+
+  .Portfolio {
+    max-width: 90%;
+  }
+  .Experience {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 425px) and (min-width: 375.1px) {
+  .MainPage {
+    max-width: 90%;
+    font-size: 1.25em;
+  }
+
+  .MainPage-content {
+    max-width: 90%;
+    flex-direction: column-reverse;
+  }
+
+  .MainPage-AboutMe {
+    font-size: 1em;
+  }
+
+  .MainPage-description {
+    font-size: 0.85em;
+  }
+
+  .MainPage-image {
+    max-width: 50%;
+    width: 50%;
+  }
+
+  .Portfolio {
+    max-width: 90%;
+  }
+  .Experience {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .MainPage {
+    max-width: 90%;
+    /* font-size: 1em; */
+  }
+
+  .MainPage-content {
+    max-width: 90%;
+    flex-direction: column-reverse;
+  }
+
+  .MainPage-AboutMe {
+    font-size: 1.25em;
+  }
+
+  .MainPage-description {
+    font-size: 1.1em;
+  }
+
+  .MainPage-image {
+    max-width: 50%;
+    width: 50%;
+  }
+
+  .Portfolio {
+    max-width: 90%;
+  }
+  .Experience {
+    max-width: 90%;
+  }
 }

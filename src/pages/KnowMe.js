@@ -88,7 +88,7 @@ class KnowMe extends React.Component{
 
     render(){
         return(
-            <div>
+            <React.Fragment>
                 <div className="MainPage">
                     <h1 className="MainPage-title">
                         Know Me
@@ -102,7 +102,7 @@ class KnowMe extends React.Component{
                         width="300">
                         </img>
                         <div>
-                            <h2>
+                            <h2 className="MainPage-AboutMe">
                                 About me:
                             </h2>
                             <p className="MainPage-description">
@@ -134,7 +134,7 @@ class KnowMe extends React.Component{
                     </h1>
                     <ExperienceElementList experienceElements={this.experienceData.data}/>
                 </div>
-            </div>
+            </React.Fragment>
         );
     }
 }

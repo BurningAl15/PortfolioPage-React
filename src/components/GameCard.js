@@ -9,22 +9,24 @@ class GameCard extends React.Component {
         <h2 className="GameCard-Title">{this.props.gameName}</h2>
         <div className="GameCard">
           <div className="GameCard-Part-Top">
-            <iframe
-              className="GameCard-videoContainer"
-              width="640"
-              height="480"
-              src={this.props.videoLink}
-              frameBorder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen=""
-            />
+            <div className="GameCard-videoContainer">
+              <iframe
+                className="GameCard-videoIframe"
+                width="100%"
+                height="100%"
+                src={this.props.videoLink}
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen=""
+              />
+            </div>
 
             <div className="GameCard-Content">
-              <div>
+              <div className="Gamecard-Content-Item1">
                 <h3>Genre:</h3>
                 <p>{this.props.gameGenre}</p>
               </div>
-              <div>
+              <div className="Gamecard-Content-Item2">
                 <h3>Description:</h3>
                 <p>{this.props.gameDescription}</p>
               </div>

@@ -1,24 +1,22 @@
-.GameCardBuild{
-    display: flex;
-    align-content: center;
-    justify-content: space-around;
-    max-width: 85%;
-    justify-self: center;
-    margin-top: 4%;
-    margin-left:5%;
-    margin-right:5%;
-    border-radius:5px;
+.GameCardBuild {
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  justify-self: center;
+
+  margin: auto;
+
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+
+  align-items: center;
+  overflow: hidden;
+  list-style: none;
+
+  border-radius: 5px;
 }
 
-.socialNetwork{
-    width:40px;
-    height:40px;
-    /* background-color:rgb(255, 255, 255); */
-    /* color:black; */
+.socialNetwork {
+  width: 40px;
+  height: 40px;
 }
-
-/* .GameCardBuild-Element{
-    margin-left:10px;
-    margin-right:10px;
-
-} */

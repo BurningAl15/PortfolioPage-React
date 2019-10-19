@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  height:100vh;
+}
+
 html {
   background-color: #fff;
   line-height: 1.5;
@@ -16,6 +20,7 @@ header {
   display: flex;
   /* flex-wrap: wrap; */
   justify-content: space-between;
+  /* color: #d7e894; */
 }
 
 figure {

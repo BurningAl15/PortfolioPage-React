@@ -6,7 +6,7 @@ class Footer extends React.Component{
 
         return (
             <div className="Footer">
-                <div>
+                <div className="Footer-Container">
                     <strong>
                         © 2019 Aldhair Vera. All rights reserved
                     </strong>

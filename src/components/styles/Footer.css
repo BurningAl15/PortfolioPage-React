@@ -1,17 +1,60 @@
-.Footer{
+.Footer {
+  font-family: "Press Start 2P", cursive;
+
+  margin-top:auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  background-color: #252525;
+
+  color: #d7e894;
+  font-size: 1em;
+
+  /* clear:both;
+  position:relative; */
+
+  max-width: 100%;
+  max-height: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+}
+
+.Footer-Container {
+}
+
+@media screen and (max-width: 375px) {
+  .Footer {
+    font-size: 0.7em;
+  }
+  .Footer-Container {
     display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-evenly;
-    background-color: #252525;
-    
-    color: white;
-    font-size: 25px;
-    max-width: 100%;
-    max-height: 100px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    border-radius: 10px;
-    /* border-color: #000000;
-    border-style: solid; */
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 375.1px) {
+  .Footer {
+    font-size: 0.75em;
+  }
+  .Footer-Container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768.1px) {
+  .Footer {
+    font-size: 1em;
+  }
+
+  .Footer-Container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 }

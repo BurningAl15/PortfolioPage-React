@@ -17,9 +17,9 @@ const contactMe = "../public/index.html";
 class Navbar extends React.Component {
   render() {
     return (
-      <div className="Navbar">
-        <div className="Navbar-container">
-          <div className="Navbar-logo-container">
+      <header>
+        <div className="Navbar">
+          <figure className="Navbar-logo-container">
             <Link className="Navbar-logo-container" to="/">
               <img
                 className="Navbar-logo"
@@ -37,7 +37,8 @@ class Navbar extends React.Component {
                 </p>
               </span>
             </Link>
-          </div>
+          </figure>
+
           <nav className="Navbar-links-container">
             <ol className="Navbar-link-set">
               <li>
@@ -45,16 +46,19 @@ class Navbar extends React.Component {
                   Gamejams
                 </Link>
               </li>
+
               <li>
                 <Link className="Navbar-links" to="/OwnProjects">
                   Own Projects
                 </Link>
               </li>
+
               <li>
                 <Link className="Navbar-links" to="/PublishedProjects">
                   Published Projects
                 </Link>
               </li>
+
               <li>
                 <Link className="Navbar-links" to="/ContactMe">
                   Contact Me
@@ -63,7 +67,7 @@ class Navbar extends React.Component {
             </ol>
           </nav>
         </div>
-      </div>
+      </header>
     );
   }
 }

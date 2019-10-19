@@ -1,81 +1,130 @@
-html{
-    background-color:#fff;
-    line-height: 1.5;
-    font-weight: 400;
-    font-size: 1rem;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-.Navbar{
-    max-width:100%;
-    width:100%;
-
-    padding:0.5rem 0;
-    justify-content: space-between;
-
-    background-image: linear-gradient(#1C3643,#000000);
-    /* background-repeat: repeat-x; */
-}
-.Navbar::before{
-    box-sizing: border-box;
-}
-.Navbar::after{
-    box-sizing: border-box;
+html {
+  background-color: #fff;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
-.Navbar-container{
-    display:flex;
-    justify-content: space-between;
+header {
+  width: 100%;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
 }
 
-.Navbar-logo-container{
-    display:flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-shrink: 0;
-    text-decoration: none;
-    margin-left: 1%;
+figure {
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.Navbar-link-set{
-    max-width:100%;
-    display:flex;
-    /* flex-wrap: wrap; */
-
-    align-items: center;
-    margin:0;
-    padding:0;
-    list-style: none;
+p {
+  margin: 0px;
 }
 
-.Navbar-links-container{
-    display:flex;
-    align-items: center;
-    flex-shrink: 0;
-    max-width:60%;
-    margin-right: 1%;
+.Navbar {
+  max-height: 10%;
+  height: inherit;
+  max-width: 100%;
+  width: 100%;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  flex-wrap: inherit;
+
+  background-image: linear-gradient(#1c3643, #000000);
 }
 
-.Navbar-title{
-    color:#D7E894;
-    font-family: 'Press Start 2P', cursive;
-    /* text-align: center; */
+.Navbar-logo-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  text-decoration: none;
+  margin-left: 1%;
 }
 
-.Navbar-links{
-    color:#D7E894;
-    max-width:180px;
-    width:80%;
-    /* font-size: 20px; */
-    font-family: 'Press Start 2P', cursive;
-    flex-shrink: 0;
-    /* text-align: center; */
-    align-items: center;
-    margin:5px;
-    padding:10px;
-    text-decoration: none;
+.Navbar-link-set {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
 
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style: none;
 }
 
-.Navbar-logo{
-    margin-right: 0.5rem;
+.Navbar-links-container {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
+
+.Navbar-title {
+  color: #d7e894;
+  font-family: "Press Start 2P";
+}
+
+.Navbar-links {
+  color: #d7e894;
+  display: flex;
+  text-align: center;
+  margin: 1em;
+  max-height: 75px;
+  text-decoration: none;
+  font-family: "Press Start 2P", cursive;
+}
+
+.Navbar-logo {
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    display: block;
+    height: auto;
+    justify-content: center;
+  }
+  .Navbar-logo-container {
+    justify-content: center;
+    margin-left: 0px;
+  }
+
+  .Navbar-links-container {
+    display: block;
+  }
+
+  .Navbar-link-set {
+    flex-direction: column;
+  }
+
+  .Navbar-links {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768.1px) {
+  .Navbar-links {
+    max-width: 150px;
+    max-height: 75px;
+    margin: 0.5em;
+  }
+}
+
+@media screen and (max-width: 2560px) and (min-width: 1440px) {
+  .Navbar-links {
+    max-width: 225px;
+    max-height: 75px;
+  }
 }

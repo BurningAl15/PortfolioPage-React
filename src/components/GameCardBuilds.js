@@ -37,26 +37,6 @@ class GameCardBuild extends React.Component {
           </li>
         </ol>
 
-        {/* <div>
-          <Link className="html5" to="/ComingSoon">
-            <h3 className="fa fa-html5 socialNetwork">Web</h3>
-          </Link>
-        </div>
-        <div>
-          <Link className="html5" to="/ComingSoon">
-            <h3 className="fa fa-pc socialNetwork">PC</h3>
-          </Link>
-        </div>
-        <div>
-          <Link className="html5" to="/ComingSoon">
-            <h3 className="fa fa-android socialNetwork">Android</h3>
-          </Link>
-        </div>
-        <div>
-          <Link className="html5" to="/ComingSoon">
-            <h3 className="fa fa-html5 socialNetwork">GDD</h3>
-          </Link>
-        </div> */}
       </React.Fragment>
     );
   }

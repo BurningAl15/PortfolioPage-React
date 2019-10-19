@@ -1,11 +1,9 @@
 .GameCard {
   max-width: 85%;
-  /* width:1141.45px; */
   background-color: rgb(62, 106, 128);
   border-radius: 5px;
 
-  margin-left: 7.5%;
-  margin-right: 7.5%;
+  margin: auto;
   margin-top: 5%;
 
   flex-shrink: 0;
@@ -69,15 +67,23 @@
     flex-direction: column;
     width: 90%;
   }
+  .GameCard-Content {
+    max-width: 100%;
+  }
+
+  .GameCard-videoContainer {
+    flex-shrink: 0;
+    width: 100%;
+    margin-bottom: 0%;
+  }
 }
 
-@media screen and (max-width: 1440px) and (min-width: 1024.1) {
+@media screen and (max-width: 1440px) and (min-width: 1024.1px) {
   .GameCard {
-    max-width: 90%;
+    max-width: 95%;
   }
   .GameCard-Part-Top {
-    flex-direction: column;
-    width: 90%;
+    width: 100%;
   }
   .GameCard-Content {
     max-width: 40%;
@@ -85,7 +91,16 @@
 
   .GameCard-videoContainer {
     flex-shrink: 0;
-    width: 80%;
+    width: 70%;
     margin-bottom: 0%;
+    margin: auto;
+  }
+
+  .Gamecard-Content-Item1 {
+    margin-bottom: 5%;
+  }
+
+  .Gamecard-Content-Item2 {
+    margin-bottom: 5%;
   }
 }

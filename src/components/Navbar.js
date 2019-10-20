@@ -9,10 +9,10 @@ import { Link } from "react-router-dom";
 // const published='../html/gamejam.html';
 // const contactMe='../html/gamejam.html';
 
-const gamejams = "../public/index.html";
-const ownProjects = "../public/index.html";
-const published = "../public/index.html";
-const contactMe = "../public/index.html";
+// const gamejams = "../public/index.html";
+// const ownProjects = "../public/index.html";
+// const published = "../public/index.html";
+// const contactMe = "../public/index.html";
 
 class Navbar extends React.Component {
   render() {

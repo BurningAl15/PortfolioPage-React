@@ -8,17 +8,20 @@ import { Link } from "react-router-dom";
 // const pc = "./";
 // const gdd = "./";
 
-class GameCardBuild extends React.Component {
-  render() {
-    return (
-      <React.Fragment>
-        <ol className="GameCardBuild">
-          <li>
-            <Link className="html5" to="/ComingSoon">
-              <h3>Web</h3>
-            </Link>
-          </li>
-          <li>
+function GameCardBuild(props) {
+  return (
+    <React.Fragment>
+      <ol className="GameCardBuild">
+        <li>
+          <Link
+            className="html5"
+            // to={`/WebGame/${}`}
+            to="/WebGame"
+          >
+            <h3>Web</h3>
+          </Link>
+        </li>
+        {/* <li>
             <Link className="html5" to="/ComingSoon">
               <h3>PC</h3>
             </Link>
@@ -28,17 +31,16 @@ class GameCardBuild extends React.Component {
             <Link className="html5" to="/ComingSoon">
               <h3>Android</h3>
             </Link>
-          </li>
+          </li> */}
 
-          <li>
-            <Link className="html5" to="/ComingSoon">
-              <h3>GDD</h3>
-            </Link>
-          </li>
-        </ol>
-
-      </React.Fragment>
-    );
-  }
+        <li>
+          <Link className="html5" to="/ComingSoon">
+            <h3>GDD</h3>
+          </Link>
+        </li>
+      </ol>
+    </React.Fragment>
+  );
 }
+
 export default GameCardBuild;

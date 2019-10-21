@@ -109,6 +109,18 @@ class OwnProjects extends React.Component {
             />
           </div>
 
+          <div className="Project-content">
+            <GameCard
+              gameName="Four Directions"
+              videoLink="https://www.youtube.com/embed/1KWDhGR77QA"
+              gameGenre="HyperCasual / Mobile"
+              gameDescription="Mantain on the air as much as you can avoiding cucumbers."
+              name="4"
+              // build="%PUBLIC_URL%/FourDirections/Build/Build.json"
+              // launcher="%PUBLIC_URL%/FourDirections/Build/UnityLoader.js"
+            />
+          </div>
+
         </div>
       </React.Fragment>
     );

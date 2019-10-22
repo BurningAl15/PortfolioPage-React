@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "LimaGamejam2019",
+"dataUrl": "CorrectWebPackage.data.unityweb",
+"asmCodeUrl": "CorrectWebPackage.asm.code.unityweb",
+"asmMemoryUrl": "CorrectWebPackage.asm.memory.unityweb",
+"asmFrameworkUrl": "CorrectWebPackage.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

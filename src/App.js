@@ -19,14 +19,14 @@ function App(){
             <Layout>
                 <Switch>
                     <Route exact path="/" component={KnowMe}/>
-                    <Route exact path="/Gamejams" component={Gamejams}/>
-                    <Route exact path="/OwnProjects" component={OwnProjects}/>
-                    <Route exact path="/PublishedProjects" component={PublishedProjects}/>
-                    <Route exact path="/ContactMe" component={ContactMe}/>
+                    <Route name="gamejams" exact path="/Gamejams" component={Gamejams}/>
+                    <Route name="ownProjects" exact path="/OwnProjects" component={OwnProjects}/>
+                    <Route name="publishedProjects" exact path="/PublishedProjects" component={PublishedProjects}/>
+                    <Route name="contactMe" exact path="/ContactMe" component={ContactMe}/>
                     <Route exact path="/WebGame" component={WebGame}/>
 
-                    {/* <Route exact path="/WebGame/:gameId" component={WebGame}/> */}
-                    <Route exact path="/ComingSoon" component={ComingSoon}/>
+                    {/* <Route name="webGame" exact path="/WebGame/:gameId" component={WebGame}/> */}
+                    <Route name="comingSoon" exact path="/ComingSoon" component={ComingSoon}/>
                 </Switch>
             </Layout>
         </BrowserRouter>

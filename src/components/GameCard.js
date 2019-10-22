@@ -34,7 +34,10 @@ class GameCard extends React.Component {
           </div>
           <div className="GameCard-Part-Bottom">
             <div className="GameCard-Links">
-              <GameCardBuild />
+              <GameCardBuild 
+                gameId={this.props.gameId}
+                // gameId="4"
+              />
             </div>
           </div>
         </div>

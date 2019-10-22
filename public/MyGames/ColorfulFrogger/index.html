@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Aldhair Vera Portfolio | Unity WebGL Player | Flappy</title>
+    <link rel="shortcut icon" href="../../Assets/AldhairDevIcon.png">
+    <link rel="stylesheet" type="text/css" href="../Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="TemplateData/other.css"> -->
+    <link rel="stylesheet" href="../../CSS/styles.css">
+    <link rel="stylesheet" href="TemplateData/style.css">
+
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+        var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build.json", {
+            onProgress: UnityProgress
+        });
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand portfolioTitle" href="../../index.html">
+            <img src="../../Assets/AldhairVeraIcon.png" width="100" height="100" alt="Card front" class="img-responsive img-rounded myImage"> Aldhair Vera Portfolio
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link portfolioText" href="../../gamejams.html">Gamejams</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link portfolioText" href="../../ownWorks.html">Own Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link portfolioText" href="../../publishedProjects.html">Published</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link portfolioText" href="../../contactMe.html">Contact me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="webgl-content">
+        <div id="gameContainer" style=" width: 960px; height: 600px"></div>
+        <div>
+            <p style="text-align: center" class="titleStyle">Description: This game is a flappy like game made thinking in cats</p>
+        </div>
+        <div class="footer">
+            <div class="webgl-logo"></div>
+            <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+            <div class="title">
+                <h4 class="titleStyle">Name: Colorful Frogger</h4>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

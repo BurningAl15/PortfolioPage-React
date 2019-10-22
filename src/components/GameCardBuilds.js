@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 // const gdd = "./";
 
 function GameCardBuild(props) {
+  
   return (
     <React.Fragment>
       <ol className="GameCardBuild">
@@ -16,7 +17,8 @@ function GameCardBuild(props) {
           <Link
             className="html5"
             // to={`/WebGame/${}`}
-            to="/WebGame"
+            to={{pathname:"/WebGame",
+             state:{gameId:`${props.gameId}`}}}
           >
             <h3>Web</h3>
           </Link>

@@ -47,6 +47,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  border-radius: 5px;
 }
 
 .GameCard-Content {
@@ -59,7 +60,31 @@
   padding: 2.5%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width:425px) and (min-width:320px){
+  .GameCard {
+    max-width: 95%;
+  }
+  .GameCard-Part-Top {
+    flex-direction: column;
+    width: 100%;
+  }
+  .GameCard-Content {
+    max-width: 100%;
+    font-size: .8em;
+  }
+  
+  .Gamecard-Content-H3{
+    font-size: 1.2em;
+  }
+
+  .GameCard-videoContainer {
+    flex-shrink: 0;
+    width: 100%;
+    margin-bottom: 0%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width:425.1px) {
   .GameCard {
     max-width: 90%;
   }

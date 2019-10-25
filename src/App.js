@@ -23,7 +23,7 @@ function App(){
                     <Route name="ownProjects" exact path="/OwnProjects" component={OwnProjects}/>
                     <Route name="publishedProjects" exact path="/PublishedProjects" component={PublishedProjects}/>
                     <Route name="contactMe" exact path="/ContactMe" component={ContactMe}/>
-                    <Route exact path="/WebGame" component={WebGame}/>
+                    <Route path="/WebGame" component={WebGame}/>
 
                     {/* <Route name="webGame" exact path="/WebGame/:gameId" component={WebGame}/> */}
                     <Route name="comingSoon" exact path="/ComingSoon" component={ComingSoon}/>

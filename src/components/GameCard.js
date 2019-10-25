@@ -23,11 +23,11 @@ class GameCard extends React.Component {
 
             <div className="GameCard-Content">
               <div className="Gamecard-Content-Item1">
-                <h3>Genre:</h3>
+                <h3 className="Gamecard-Content-H3">Genre:</h3>
                 <p>{this.props.gameGenre}</p>
               </div>
               <div className="Gamecard-Content-Item2">
-                <h3>Description:</h3>
+                <h3 className="Gamecard-Content-H3">Description:</h3>
                 <p>{this.props.gameDescription}</p>
               </div>
             </div>

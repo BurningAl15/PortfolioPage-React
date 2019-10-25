@@ -14,8 +14,8 @@ function GameCardBuild(props) {
       <ol className="GameCardBuild">
         <li>
           <Link
-            // to={`/WebGame/${}`}
-            to={{ pathname: "/WebGame", state: { gameId: `${props.gameId}` } }}
+            // to={{ pathname: `/WebGame/${props.gameId}`, state: { gameId: `${props.gameId}`} }}
+            to={{ pathname: "/WebGame/", state: { gameId: `${props.gameId}`} }}
           >
             <img
               className="socialNetwork"
@@ -37,7 +37,7 @@ function GameCardBuild(props) {
           </li> */}
 
         <li>
-          <Link className="html5" to="/ComingSoon">
+          <Link to="/ComingSoon">
             <img
               className="socialNetwork"
               src="https://img.icons8.com/windows/50/000000/pdf.png"

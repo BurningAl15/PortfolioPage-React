@@ -24,8 +24,8 @@ function App(){
                     <Route name="publishedProjects" exact path="/PublishedProjects" component={PublishedProjects}/>
                     <Route name="contactMe" exact path="/ContactMe" component={ContactMe}/>
                     <Route path="/WebGame" component={WebGame}/>
+                    {/* <Route exact path="/WebGame/:gameId" component={WebGame}/> */}
 
-                    {/* <Route name="webGame" exact path="/WebGame/:gameId" component={WebGame}/> */}
                     <Route name="comingSoon" exact path="/ComingSoon" component={ComingSoon}/>
                 </Switch>
             </Layout>
